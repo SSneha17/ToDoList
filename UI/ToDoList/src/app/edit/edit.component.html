@@ -1,0 +1,18 @@
+<p>edit works!</p>
+
+<div *ngIf="tasks">
+    
+
+    <div *ngFor="let i of tasks">
+        <input type="text" name="i.Task" [(ngModel)]="i.Task">
+        <input type="checkbox" name="i.isCompleted" [(ngModel)]="i.isCompleted">
+        <br/>
+        <span>
+            <button (click)="updateTask(i)">Update</button>
+        </span>
+    </div>
+</div> 
+
+<p *ngIf="!tasks">
+    No Data! 
+</p>
