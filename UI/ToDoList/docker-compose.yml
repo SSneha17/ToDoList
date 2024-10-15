@@ -1,0 +1,14 @@
+services:
+  to-do-list:
+    container_name: todolistcontainer
+    build: .
+    image: to-do-list:v1
+    ports:
+      - 80:80
+    expose:
+      - 80
+    networks:
+      - internalnet
+networks:
+  internalnet:
+    driver: bridge
