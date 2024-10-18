@@ -1,0 +1,33 @@
+<!--<form (ngSubmit)="onSubmit()">
+    <input type="email" [(ngModel)]="email" placeholder="Email">
+    <input type="password" [(ngModel)]="password" placeholder="Password">
+    <button type="submit">Login</button>
+  </form>
+-->
+
+<div style="display: flexbox;">
+  <form>
+    <!-- Email input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="email" name="email" [(ngModel)]="login.email" class="form-control" required />
+      <label class="form-label" for="email">Email address</label>
+    </div>
+  
+    <!-- Password input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="password" name="password" [(ngModel)]="login.password" class="form-control" />
+      <label class="form-label" for="form2Example2">Password</label>
+    </div>
+  
+ 
+    <!-- Submit button -->
+    <button  type="button" class="btn btn-primary btn-block mb-4" (click)="onSubmit()">Sign in</button>
+  
+    <!-- Register buttons -->
+    <div class="text-center">
+
+    </div>
+  </form>
+
+
+</div>
