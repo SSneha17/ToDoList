@@ -5,29 +5,29 @@
   </form>
 -->
 
-<div style="display: flexbox;">
-  <form>
+<div class="login-container" style="align-self: center;">
+  <form class="login-form">
+    <h2> Login </h2>
     <!-- Email input -->
-    <div data-mdb-input-init class="form-outline mb-4">
+    <div data-mdb-input-init class="form-group; form-outline mb-4">
       <input type="email" name="email" [(ngModel)]="login.email" class="form-control" required />
       <label class="form-label" for="email">Email address</label>
     </div>
   
     <!-- Password input -->
-    <div data-mdb-input-init class="form-outline mb-4">
+    <div data-mdb-input-init class="form-group; form-outline mb-4">
       <input type="password" name="password" [(ngModel)]="login.password" class="form-control" />
       <label class="form-label" for="form2Example2">Password</label>
     </div>
   
  
     <!-- Submit button -->
-    <button  type="button" class="btn btn-primary btn-block mb-4" (click)="onSubmit()">Sign in</button>
+    <button  type="button" class="btn btn-primary btn-block mb-4" (click)="onSubmit()">Login</button>
   
-    <!-- Register buttons -->
-    <div class="text-center">
-
-    </div>
+  
   </form>
 
 
 </div>
+
+
