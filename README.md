@@ -79,11 +79,20 @@ The frontend should now be running at http://localhost:4200.
 
 
 ### In Action (Screenshots)
+
+Login Page
+
 ![Login](https://github.com/user-attachments/assets/5d917c2d-aa61-4677-a8f4-359f4146cbe4)
+
+Home Page view for a registered user
 
 ![HomePage](https://github.com/user-attachments/assets/73180ae5-39bb-4851-b1d0-0c43a42071ed)
 
+Edit Task
+
 ![Edit](https://github.com/user-attachments/assets/52629596-1c86-423d-8d2b-dccc1377eaa4)
+
+Delete Task
 
 ![Delete](https://github.com/user-attachments/assets/04350442-ea66-492f-8d0c-bca23f55c460)
 
